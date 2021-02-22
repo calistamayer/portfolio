@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Navigation(props) {
+    useEffect(() => {
+        document.title = currentSection.title;
+    }, [currentSection]);
     const {
         sections = [],
         setCurrentSection,
