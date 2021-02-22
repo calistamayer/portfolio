@@ -28,18 +28,6 @@ function Navigation(props) {
                                 </span>
                             </li>
                     ))}
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Portfolio
-                    </li>
-                    <li>
-                        Contact
-                    </li>
-                    <li>
-                        Resume
-                    </li>
                 </ul>
             </nav>
         </div>
