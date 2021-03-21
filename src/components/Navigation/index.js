@@ -13,7 +13,7 @@ function Navigation(props) {
     }, [currentSection]);
 
     return (
-        <div>
+        <header>
             <h2>
                 <a href="/">
                     Calista Mayer
@@ -35,7 +35,7 @@ function Navigation(props) {
                     ))}
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }
 
