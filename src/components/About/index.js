@@ -3,7 +3,7 @@ import headshot from '../../assets/images/Headshot.JPG';
 
 function About() {
     return (
-        <section>
+        <section class="hero">
             <div class="content-item about-calista content-header" id="about-calista">
                 <h2>About Calista</h2>
             </div>

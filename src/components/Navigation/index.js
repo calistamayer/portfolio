@@ -1,17 +1,19 @@
 import React, { useEffect } from 'react';
 
 function Navigation(props) {
-    useEffect(() => {
-        document.title = currentSection.title;
-    }, [currentSection]);
+
     const {
         sections = [],
         setCurrentSection,
         currentSection
     } = props;
 
+    useEffect(() => {
+        document.title = currentSection.title;
+    }, [currentSection]);
+
     return (
-        <div>
+        <header>
             <h2>
                 <a href="/">
                     Calista Mayer
@@ -33,7 +35,7 @@ function Navigation(props) {
                     ))}
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }
 

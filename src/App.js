@@ -3,7 +3,7 @@ import './App.css';
 import './index.css';
 import About from './components/About';
 import Navigation from './components/Navigation';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 
 function App() {
   const [sections] = useState([
@@ -31,7 +31,7 @@ function App() {
         currentSection={currentSection}
       ></Navigation>
       <main>
-        <Portfolio></Portfolio>
+        <Project></Project>
         <About></About>
       </main>
     </div>
