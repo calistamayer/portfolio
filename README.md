@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is a work in progress. 
 
-The finished product will look more like [this portfolio](https://calistamayer.github.io/hello_calista/)
+The finished product will look more like [this portfolio](https://calistamayer.github.io/hello_calista/).
 
 ## Available Scripts
 
